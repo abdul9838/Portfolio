@@ -1,0 +1,57 @@
+#About {
+  margin: 0;
+  padding: 50px;
+  width: 100vw;
+  height: auto;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+u {
+  color: yellow;
+  text-decoration: none;
+}
+.top {
+  max-width: 60vw;
+  text-align: center;
+}
+.skill {
+  width: 650px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  justify-content: center;
+  gap: 200px;
+  background: rgb(45, 45, 45);
+  transition: 0.3s all;
+}
+.skill:hover {
+  box-shadow: 5px 5px 8px rgb(60, 60, 60);
+}
+.skill img {
+  height: 60%;
+  border-right: 1px solid white;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  #About {
+    height: auto;
+  }
+  .skill {
+    width: 300px;
+    gap: 30px;
+  }
+  .about {
+    gap: 2rem;
+  }
+
+  .skill img {
+    height: 60%;
+  }
+}
