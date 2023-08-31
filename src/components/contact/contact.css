@@ -42,7 +42,7 @@ textarea {
 
 @media screen and (max-width: 800px) {
   input {
-    width: 370px;
+    width: 320px;
   }
   .textContact h1 {
     font-size: 2rem;

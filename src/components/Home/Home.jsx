@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./home.css";
-import ExamplePdf from "../../../src/Abdul.pdf";
+
 const Home = () => {
   return (
     <>
@@ -35,22 +35,21 @@ const Home = () => {
                   Hire me
                 </button>
               </Link>
-              <Link className="navlink">
-                <a
-                  href={ExamplePdf}
-                  download="Abdul Ahad Resume"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>
-                    <img
-                      src={process.env.PUBLIC_URL + "/assets/downloads.png"}
-                      alt=""
-                    />
-                    Resume
-                  </button>
-                </a>
-              </Link>
+
+              <a
+                href="/Abdul.pdf"
+                download="Example-PDF-document"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>
+                  <img
+                    src={process.env.PUBLIC_URL + "/assets/downloads.png"}
+                    alt=""
+                  />
+                  Resume
+                </button>
+              </a>
             </div>
           </div>
           <div className="right">

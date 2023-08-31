@@ -23,7 +23,7 @@ const Navbar = () => {
             to="About"
             smooth={true}
             spy={true}
-            offset={-100}
+            offset={-50}
             duration={500}
             className="navlink"
           >
