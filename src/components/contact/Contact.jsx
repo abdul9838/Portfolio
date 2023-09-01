@@ -33,7 +33,7 @@ const Contact = () => {
         <p>Please fill out the form below to discuss any work opportinities.</p>
       </div>
       <form ref={form} onSubmit={sendEmail}>
-        <input type="text" placeholder="Enter Your name" name="user_name" />
+        <input type="text" placeholder="Enter Your name" name="from_name" />
         <input type="email" placeholder="Enter Your email." name="user_email" />
         <textarea
           placeholder="Emter message..."

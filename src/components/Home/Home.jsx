@@ -35,21 +35,6 @@ const Home = () => {
                   Hire me
                 </button>
               </Link>
-
-              <a
-                href="/Abdul.pdf"
-                download="Example-PDF-document"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button>
-                  <img
-                    src={process.env.PUBLIC_URL + "/assets/downloads.png"}
-                    alt=""
-                  />
-                  Resume
-                </button>
-              </a>
             </div>
           </div>
           <div className="right">

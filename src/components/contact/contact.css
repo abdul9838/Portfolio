@@ -39,7 +39,9 @@ textarea {
   border: 2px solid white;
   border-radius: 50%;
 }
-
+::placeholder {
+  color: aliceblue;
+}
 @media screen and (max-width: 800px) {
   input {
     width: 320px;
