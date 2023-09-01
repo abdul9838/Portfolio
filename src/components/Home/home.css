@@ -62,7 +62,7 @@ p {
     padding-left: 3rem;
   }
   .left {
-    top: 32rem;
+    top: 20rem;
   }
   h2 {
     font-size: 1.2rem;
@@ -70,11 +70,12 @@ p {
   h1 {
     font-size: 2rem;
   }
-  p {
+  .left p {
+    width: 80%;
     font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
   #Home {
     padding: 20px;
   }
@@ -90,7 +91,7 @@ p {
   h1 {
     font-size: 1rem;
   }
-  p {
+  .left p {
     font-size: 0.6rem;
   }
   button {
